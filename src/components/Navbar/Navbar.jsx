@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import { FaCommentDots } from 'react-icons/fa';
 
 import './Navbar.css'
+// import { ScrollLink } from "react-scroll";
+import { Link as ScrollLink } from 'react-scroll';
 
 
 
@@ -9,16 +11,51 @@ const NavBar = () => {
 
 
     const navOptions = <>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/tournaments">Tournaments</Link></li>
-        <li><Link to="/devices">Compare Devices</Link></li>
-        <li><Link to="/shop">Tournaments</Link></li>
+     
+
+        <li>
+            <ScrollLink to="home" smooth={true} duration={500}>Home</ScrollLink>  </li>
+        <li>
+            <ScrollLink to="tournaments" smooth={true} duration={500}>Tournaments</ScrollLink>
+
+        </li>
+        <li>
+            <ScrollLink to="devices" smooth={true} duration={500}>Compare Devices</ScrollLink>
+
+        </li>
+        <li>
+            <ScrollLink to="shop" smooth={true} duration={500}>Shop</ScrollLink>
+
+        </li>
+
+
 
     </>
 
+    // const navOptions = (
+    //     <>
+    //         <li>
+    //             <ScrollLink className='font-semibold text-lg' to="home" smooth={true} duration={500}>Home</ScrollLink>
+    //         </li>
+    //         <li>
+    //             <ScrollLink className='font-semibold text-lg' to="about" smooth={true} duration={500}>About Me</ScrollLink>
+    //         </li>
+    //         <li>
+    //             <ScrollLink className='font-semibold text-lg' to="skills" smooth={true} duration={500}>Skills</ScrollLink>
+    //         </li>
+    //         <li>
+    //             <ScrollLink className='font-semibold text-lg' to="projects" smooth={true} duration={500}>Projects</ScrollLink>
+    //         </li>
+    //         <li>
+    //             <ScrollLink className='font-semibold text-lg' to="contacts" smooth={true} duration={500}>Contact Me</ScrollLink>
+    //         </li>
+    //     </>
+    // );
+
+
     return (
         <>
-            <div className="navbar sticky top-0 z-10 bg-opacity-0 max-w-screen-xl w-full text-white">
+            <div className="navbar lg:fixed sticky top-0 z-10 bg-opacity-0 max-w-screen-xl w-full text-white">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -30,18 +67,18 @@ const NavBar = () => {
                     </div>
 
                     <div>
-                        <img className='rounded-full cursor-pointer' src='logo.png' alt="" />
+                        <img className='rounded-full cursor-pointer lg:ml-14' src='logo.png' alt="" />
                     </div>
 
-                    
 
-                    
+
+
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                        <ul className="menu menu-horizontal px-1 text-2xl">
-                            {navOptions}
-                        </ul>
-                    </div>
+                    <ul className="menu menu-horizontal px-1 text-2xl">
+                        {navOptions}
+                    </ul>
+                </div>
                 <div className="navbar-end">
 
                     {/* Search Bar */}
@@ -89,10 +126,6 @@ const NavBar = () => {
                             </div>
                         </div>
                     </div>
-
-
-
-
                 </div>
             </div>
         </>

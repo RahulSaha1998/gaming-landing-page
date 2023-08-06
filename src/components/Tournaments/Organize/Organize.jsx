@@ -2,7 +2,7 @@ import React from 'react';
 
 const Organize = () => {
     return (
-        <div className=''>
+        <div id='shop'>
             <div className='mx-10 grid lg:grid-cols-2'>
                 <div className='lg:mt-32 p-5'>
                     <h2 className='text-6xl text-white'><span className='text-green-500'>Organize</span><br />Tournaments</h2>

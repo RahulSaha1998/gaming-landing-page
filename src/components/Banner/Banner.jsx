@@ -56,7 +56,7 @@ export default function App() {
         <SwiperSlide>
           <div className="slide-content">
             <img src="bg1.jpg" alt="" />
-            <div className="slide-overlay text-start">
+            <div className="slide-overlay text-start lg:ml-16">
               <h2 className='sm:text-3xl lg:text-6xl'>EVOLVE YOUR <span className='text-green-500'>GAMING</span> <br /> EXPERIENCE</h2>
               <p className='my-3 text-gray-400'>Play with friends or compete against rivals from around the world</p>
               <button className='btn btn-success'>Join Now</button>
@@ -66,7 +66,7 @@ export default function App() {
         <SwiperSlide>
           <div className="slide-content">
             <img src="bg2.png" alt="" />
-              <div className="slide-overlay text-start">
+              <div className="slide-overlay text-start lg:ml-16">
                 <h2 className='sm:text-3xl lg:text-6xl'>EVOLVE YOUR <span className='text-green-500'>GAMING</span> <br /> EXPERIENCE</h2>
                 <p className='my-3 text-gray-400'>Play with friends or compete against rivals from around the world</p>
                 <button className='btn btn-success'>Join Now</button>
@@ -76,7 +76,7 @@ export default function App() {
         <SwiperSlide>
           <div className="slide-content">
             <img src="bg3.jpg" alt="" />
-            <div className="slide-overlay text-start">
+            <div className="slide-overlay text-start lg:ml-16">
               <h2 className='sm:text-3xl lg:text-6xl'>EVOLVE YOUR <span className='text-green-500'>GAMING</span> <br /> EXPERIENCE</h2>
               <p className='my-3 text-gray-400'>Play with friends or compete against rivals from around the world</p>
               <button className='btn btn-success'>Join Now</button>
