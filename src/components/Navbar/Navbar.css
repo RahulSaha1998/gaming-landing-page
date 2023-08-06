@@ -1,0 +1,14 @@
+/* .navbar {
+    position: sticky;
+    top: 0;
+    background: transparent;
+    z-index: 1000;
+  } */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Odibee+Sans&family=Open+Sans:ital@0;1&family=Poppins:wght@400;500&display=swap');
+
+body{
+    font-family: 'Odibee Sans', cursive;
+    
+ }

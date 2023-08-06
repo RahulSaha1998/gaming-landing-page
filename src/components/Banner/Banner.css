@@ -1,0 +1,65 @@
+#app {
+  height: 100%;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Odibee+Sans&family=Open+Sans:ital@0;1&family=Poppins:wght@400;500&display=swap');
+
+body {
+  font-family: 'Odibee Sans', cursive;
+
+}
+
+
+.slide-content {
+  position: relative;
+}
+
+.slide-overlay {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px; /* Adjust this value as needed */
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+}
+

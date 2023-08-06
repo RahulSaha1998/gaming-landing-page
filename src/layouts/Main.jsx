@@ -5,10 +5,10 @@ import Footer from '../components/Footer/Footer';
 
 const Main = () => {
     return (
-        <div className='w-[80%] mx-auto'>
+        <div className='w-[90%] mx-auto bg-gradient-to-tr from-purple-900 to-blue-900'>
             <Navbar></Navbar>
             <Outlet></Outlet>
-            <Footer></Footer>
+            {/* <Footer></Footer> */}
         </div>
     );
 };
