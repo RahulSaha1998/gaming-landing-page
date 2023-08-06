@@ -3,7 +3,8 @@ import React from 'react';
 const About = () => {
     return (
         <>
-            <div className="bg-cover bg-center bg-no-repeat h-screen" style={{ backgroundImage: 'url("rc.png")' }}>
+            {/* tournaments section */}
+            <div id='tournaments' className="bg-cover bg-center bg-no-repeat h-screen" style={{ backgroundImage: 'url("rc.png")' }}>
                 {/* Your content goes here */}
 
                 {/* SVG implementation */}
@@ -24,6 +25,7 @@ const About = () => {
                 </div>
             </div>
 
+            {/*  about us*/}
 
             <div>
                 <div className='lg:ml-28 grid lg:grid-cols-2'>
@@ -41,7 +43,9 @@ const About = () => {
                 </div>
             </div>
 
-            <div className=''>
+            {/* compete devices section */}
+
+            <div className='devices'>
                 <div className=" bg-cover bg-center bg-no-repeat h-screen" style={{ backgroundImage: 'url("rc2.png")' }}>
 
                     <div className=' mx-auto grid lg:grid-cols-2'>

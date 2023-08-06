@@ -11,7 +11,7 @@ const NavBar = () => {
 
 
     const navOptions = <>
-     
+
 
         <li>
             <ScrollLink to="home" smooth={true} duration={500}>Home</ScrollLink>  </li>
@@ -25,32 +25,9 @@ const NavBar = () => {
         </li>
         <li>
             <ScrollLink to="shop" smooth={true} duration={500}>Shop</ScrollLink>
-
         </li>
-
-
-
     </>
 
-    // const navOptions = (
-    //     <>
-    //         <li>
-    //             <ScrollLink className='font-semibold text-lg' to="home" smooth={true} duration={500}>Home</ScrollLink>
-    //         </li>
-    //         <li>
-    //             <ScrollLink className='font-semibold text-lg' to="about" smooth={true} duration={500}>About Me</ScrollLink>
-    //         </li>
-    //         <li>
-    //             <ScrollLink className='font-semibold text-lg' to="skills" smooth={true} duration={500}>Skills</ScrollLink>
-    //         </li>
-    //         <li>
-    //             <ScrollLink className='font-semibold text-lg' to="projects" smooth={true} duration={500}>Projects</ScrollLink>
-    //         </li>
-    //         <li>
-    //             <ScrollLink className='font-semibold text-lg' to="contacts" smooth={true} duration={500}>Contact Me</ScrollLink>
-    //         </li>
-    //     </>
-    // );
 
 
     return (
@@ -61,7 +38,7 @@ const NavBar = () => {
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
-                        <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                        <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-blue-950 text-lg">
                             {navOptions}
                         </ul>
                     </div>

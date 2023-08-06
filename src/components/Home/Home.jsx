@@ -7,10 +7,10 @@ import Checkout from '../Tournaments/Checkout/Checkout';
 const Home = () => {
     return (
         <>
-            <div>
+            <div id='home'>
                 <Banner></Banner>
             </div>
-            <div id='home'>
+            <div>
                 <About></About>
             </div>
             <div>
